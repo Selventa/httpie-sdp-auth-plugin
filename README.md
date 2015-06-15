@@ -27,10 +27,12 @@ http --help
 *Example output*
 
 > Authentication:
+>
 >  --auth USER[:PASS], -a USER[:PASS]
 >      If only the username is provided (-a username), HTTPie will prompt
 >      for the password.
 >      
+>
 >  --auth-type {basic,digest,sdp}
 >      The authentication mechanism to be used. Defaults to "basic".
 >      
