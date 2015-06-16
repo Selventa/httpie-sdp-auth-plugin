@@ -45,6 +45,13 @@ http --help
 
 ### Usage
 
-```
+```bash
 http --auth-type=sdp --auth='API_KEY:PRIVATE_KEY' https://sdp/api/...
+```
+
+### Example
+
+```bash
+# Retrieve resources for tag.
+http --auth-type=sdp --auth="API_KEY:PRIVATE_KEY" "https://sdp/api/tags/YOUR_TAG"
 ```
